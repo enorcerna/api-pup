@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "allowUnusedLabels": true,
+    "skipLibCheck": true
+  }
+}
