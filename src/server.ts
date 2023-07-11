@@ -2,7 +2,10 @@ import express from 'express'
 import { video } from './routes'
 const app = express()
 
-app.use('/api',video)
+app.use( '/api', video )
+app.use( '*', ( _req,res )=> {
+    res.send( 'this a not ruote' )
+})
 app.use( express.json() )
 app.listen( 1007, () =>
 {
