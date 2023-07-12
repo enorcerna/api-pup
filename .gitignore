@@ -77,3 +77,6 @@ Thumbs.db
 *.sqlite3
 
 # Dependiendo de tu lenguaje y entorno de desarrollo, es posible que desees agregar más reglas específicas.
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
