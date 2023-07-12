@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer"
+import puppeteer from "puppeteer-core"
 import chrome from "chrome-aws-lambda"
 
 async function LinkExtra(url: string) {
