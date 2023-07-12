@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/server.ts --port 1007",
+    "dev": "nodemon --exec ts-node src/server.ts",
     "build": "rimraf dist && tsc",
     "start": "node dist/server.js"
   },
