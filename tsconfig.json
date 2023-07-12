@@ -3,6 +3,8 @@
     "useDefineForClassFields": true,
     "moduleResolution": "nodenext",
     "allowImportingTsExtensions": false,
+    "module": "commonjs",
+    "target": "ES6",
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./src",
