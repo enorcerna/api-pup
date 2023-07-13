@@ -1,6 +1,6 @@
 import express from 'express'
 import { video } from './routes'
-
+import serveless from 'serverless-http'
 const app = express()
 
 app.use( '/api', video )
@@ -13,3 +13,5 @@ app.listen( PORT, () =>
 {
     console.log( 'Server started at http://localhost:1007' )
 })
+
+export const handler = serveless( app )
