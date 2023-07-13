@@ -13,5 +13,5 @@ app.listen( PORT, () =>
 {
     console.log( 'Server started at http://localhost:1007' )
 })
-
+export default app
 export const handler = serveless( app )
